@@ -1,0 +1,22 @@
+body {
+  font-family: cursive;
+}
+.redSection {
+  width: 80%;
+  height: 2rem;
+  background-color: rgb(131, 24, 5);
+}
+#superTitulo {
+  color: green;
+}
+.redSection p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.redSection {
+  height: 10rem;
+}
+body > .redSection {
+  border: 3rem solid yellow;
+}
