@@ -1,0 +1,46 @@
+body #header {
+  height: 5rem;
+  width: 100%;
+}
+
+body #header .logo {
+  float: left;
+  width: 10%;
+  text-align: center;
+
+}
+body #header .logo img {
+  max-height: 5rem;
+}
+body #header .menu {
+  float: left;
+  width: 75%;
+  margin-left: 6rem;
+  background: darkred;
+}
+body #header .menu ul {
+  list-style: none;
+  margin: 0;
+}
+body #header .menu ul li {
+  float: left;
+  padding: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+body #content {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+body #content .content-left,  body #content .content-right {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+body #footer {
+  clear: both;
+  padding: 5rem 10rem;
+  text-align: center;
+  background: gray;
+}
