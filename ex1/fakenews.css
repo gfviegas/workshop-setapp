@@ -1,0 +1,79 @@
+body #header {
+  min-height: 5rem;
+  width: 100%;
+  text-align: center;
+}
+body #header .logo img {
+  max-height: 5rem;
+}
+body #header .menu {
+  width: 100%;
+  margin: 0;
+  background: darkred;
+  text-align: center;
+}
+body #header .menu .hamburguer {
+  color: white;
+  padding: 2rem;
+  display: block;
+  text-transform: uppercase;
+}
+body #header .menu ul {
+  display: none;
+}
+body #content .content-top,  body #content .content-bottom {
+  width: 45%;
+  float: left;
+  padding: 2.5%;
+}
+body #footer {
+  clear: both;
+  padding: 5rem 2rem;
+  text-align: center;
+  background: gray;
+}
+
+
+/* Para desktops... */
+@media (min-width: 801px) {
+  body #header .logo {
+    margin-left: 0;
+    max-width: 10%;
+  }
+  body #header .hamburguer {
+    display: none;
+  }
+  body #header .menu {
+    max-width: 75%;
+    margin-left: 6rem;
+  }
+  body #header .menu ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+  }
+  body #header .menu ul li {
+    float: left;
+    padding: 2rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  body #content {
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  body #content .content-top,  body #content .content-bottom {
+    width: initial;
+    float: left;
+    padding: initial;
+  }
+  body #content .content-left,  body #content .content-right {
+    width: 45%;
+    float: left;
+    padding: 2.5%;
+  }
+  body #footer {
+    padding: 5rem 10rem;
+  }
+}
