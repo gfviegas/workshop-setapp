@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vertical Align</title>
+
+    <style>
+      body {
+        text-align: center;
+      }
+
+      #container {
+        width: 20rem;
+        height: 20rem;
+        border: 1px solid black;
+        text-align: center;
+        line-height: 25rem; /* 20rem da altura do container + 5rem da altura do content */
+      }
+
+      #content {
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        background: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content"></div>
+    </div>
+
+  </body>
+</html>
