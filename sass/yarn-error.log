@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.6.0/bin/yarn.js add node-sass
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: http://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz: Request failed "403 Forbidden"
+      at ResponseError.ExtendableBuiltin (/opt/yarn-v1.6.0/lib/cli.js:212:66)
+      at new ResponseError (/opt/yarn-v1.6.0/lib/cli.js:318:124)
+      at Request.<anonymous> (/opt/yarn-v1.6.0/lib/cli.js:61933:26)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at Request.module.exports.Request.onRequestResponse (/opt/yarn-v1.6.0/lib/cli.js:134041:10)
+      at emitOne (events.js:116:13)
+      at ClientRequest.emit (events.js:211:7)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:543:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:112:17)
+
+npm manifest: 
+  {
+    "name": "sass-learning",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "sass": "node-sass -watch fontes -o destino",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

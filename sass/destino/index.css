@@ -1,0 +1,30 @@
+#content {
+  background: #07c5f7; }
+  @media only screen and (min-width: 768px) {
+    #content {
+      background: #9f0f0f; } }
+  @media only screen and (min-width: 1248px) {
+    #content {
+      background: black; } }
+  #content .teste {
+    padding: 5rem;
+    background: #69dcfb; }
+    #content .teste * {
+      font-family: "Helvetica, sans-serif"; }
+  #content * {
+    color: white; }
+
+#outro-content {
+  margin-top: 20rem;
+  width: 100%;
+  height: 20rem;
+  background: #9f0f0f; }
+  #outro-content .triangulo {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -moz-transform: scale(0.9999);
+    border-width: 0 30px 30px 30px;
+    border-color: transparent transparent #07c5f7 transparent; }

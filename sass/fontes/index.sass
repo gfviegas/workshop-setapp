@@ -1,0 +1,23 @@
+@import "src/variaveis"
+@import "src/mixins"
+
+#content
+  background: $azul
+  @include mq('tablet')
+    background: $vermelho
+  @include mq('desktop')
+    background: black
+  .teste
+    padding: 5rem
+    background: lighten($azul, 20%)
+    *
+      font-family: $font-legal
+  *
+    color: white
+#outro-content
+  margin-top: 20rem
+  width: 100%
+  height: 20rem
+  background: $vermelho
+  .triangulo
+    @include triangle(top, 30px, 30px, $azul)
